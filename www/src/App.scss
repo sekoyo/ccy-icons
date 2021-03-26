@@ -22,8 +22,10 @@
     }
   }
   &-SiteLogo {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     color: var(--xx-secondaryTextColor);
+    letter-spacing: 1.2px;
   }
   &-GitHubLogo {
     width: 24px;
