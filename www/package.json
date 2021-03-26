@@ -2,6 +2,7 @@
   "name": "ccy-icons-www",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dominictobias.github.io/ccy-pairs",
   "dependencies": {
     "clsx": "^1.1.1",
     "node-sass": "^5.0.0",
