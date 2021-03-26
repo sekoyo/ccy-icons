@@ -1,0 +1,56 @@
+@keyframes xx-spinner-bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.xx-spinner {
+  display: flex;
+
+  &-bounce {
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+    border-radius: 100%;
+    opacity: 0.8;
+    background-color: var(--xx-primaryTextColor);
+    animation: xx-spinner-bounce 1.4s infinite ease-in-out both;
+
+    &-0 {
+      animation-delay: -0.32s;
+    }
+
+    &-1 {
+      animation-delay: -0.16s;
+    }
+
+    .xx-button--primary & {
+      background-color: var(--xx-primaryControlTextColor);
+    }
+
+    .xx-button--secondary & {
+      background-color: var(--xx-secondaryControlTextColor);
+    }
+
+    .xx-button--ghost & {
+      background-color: var(--xx-primaryTextColor);
+    }
+
+    .xx-button--danger & {
+      background-color: var(--xx-dangerControlTextColor);
+    }
+
+    .xx-button--sell & {
+      background-color: var(--xx-sellControlTextColor);
+    }
+
+    .xx-button--buy & {
+      background-color: var(--xx-buyControlTextColor);
+    }
+  }
+}

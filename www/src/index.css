@@ -1,0 +1,124 @@
+:root {
+  --xx-decorativeFont: 'Poppins', sans-serif;
+  --xx-decorativeWeight: 500;
+  --xx-bodyFont: 'Inter', sans-serif;
+  --xx-bodyWeight: 500;
+  --xx-bodyMediumWeight: 600;
+  --xx-bodyBoldWeight: 700;
+  --xx-numericFont: 'Inter', sans-serif;
+  --xx-numericWeight: 500;
+  --xx-trans: 0.22s ease;
+  --xx-smallRadius: 8px;
+  --xx-radius: 10px;
+  --xx-largeRadius: 12px;
+}
+
+:root,
+:root.dark-theme {
+  --xx-bgColor: rgb(31, 33, 40);
+  --xx-borderColor: rgb(48, 49, 56);
+  --xx-textColor: rgb(128, 129, 145);
+  --xx-primaryTextColor: rgb(255, 255, 255);
+  --xx-secondaryTextColor: rgb(173, 174, 190);
+  --xx-controlOutlineColor: rgba(98, 129, 255);
+  --xx-scrollTrackColor: var(--xx-bgColor);
+  --xx-scrollThumbColor: rgb(44, 47, 57);
+}
+
+:root.light-theme {
+  --xx-bgColor: rgb(255, 255, 255);
+  --xx-borderColor: rgb(231, 231, 231);
+  --xx-textColor: rgb(128, 129, 145);
+  --xx-primaryTextColor: rgb(27, 29, 33);
+  --xx-secondaryTextColor: rgb(60, 63, 69);
+  --xx-controlOutlineColor: rgb(98, 129, 255);
+  --xx-scrollTrackColor: var(--xx-bgColor);
+  --xx-scrollThumbColor: rgb(180, 180, 180);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  contain: paint;
+  background: var(--xx-bgColor);
+}
+
+a {
+  text-decoration: none;
+  color: var(--xx-primaryTextColor);
+}
+a:not(:disabled):hover {
+  text-decoration: underline;
+}
+a:focus {
+  text-decoration: none;
+}
+a:focus-within {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 0.5em;
+}
+
+svg {
+  display: block;
+}
+
+pre {
+  font-family: 'Source Code Pro', mono;
+}
+
+code {
+  font-family: 'Source Code Pro', mono;
+  background: #15312f;
+  color: #00d2b4;
+}
+
+.light-theme code {
+  background: rgb(192 255 250 / 30%);
+  color: #0e9d89;
+}
+
+li {
+  margin-bottom: 0.75em;
+}
+
+.scroll {
+  overflow: auto;
+  max-width: 100%;
+  max-height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--xx-scrollThumbColor) var(--xx-scrollTrackColor);
+  contain: paint;
+}
+.scroll::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+.scroll::-webkit-scrollbar-track {
+  background: var(--xx-scrollTrackColor);
+}
+.scroll::-webkit-scrollbar-corner {
+  background: var(--xx-scrollTrackColor);
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: var(--xx-scrollThumbColor);
+  border-radius: 20px;
+  border: 3px solid var(--xx-scrollTrackColor);
+}

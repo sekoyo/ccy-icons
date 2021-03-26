@@ -1,0 +1,8 @@
+plugins:
+  - removeViewBox: false
+  - removeDimensions: true
+  - convertColors:
+      currentColor: true
+  - addAttributesToSVGElement:
+      attributes:
+        - fill: currentColor

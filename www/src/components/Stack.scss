@@ -1,0 +1,11 @@
+.xx-stack {
+  flex: 1;
+  display: grid;
+  grid-gap: var(--stack-itemSpacing);
+  margin-top: var(--stack-marginTop);
+  margin-bottom: var(--stack-marginBottom);
+
+  &[data-layout='horizontal'] {
+    grid-template-columns: repeat(auto-fit, minmax(var(--stack-itemMinSize), 1fr));
+  }
+}

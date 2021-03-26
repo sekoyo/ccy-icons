@@ -1,0 +1,45 @@
+{
+  "name": "ccy-icons",
+  "version": "1.0.0",
+  "description": "Currency icon library",
+  "keywords": [
+    "web",
+    "ui",
+    "react",
+    "icons",
+    "crypto",
+    "bitcoin",
+    "currency"
+  ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "start": "NODE_ENV=development rollup -c --watch",
+    "build": "NODE_ENV=production rollup -c"
+  },
+  "author": {
+    "name": "Dominic Tobias",
+    "url": "https://github.com/DominicTobias/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^2.4.1",
+    "@types/react": "^17.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.42.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "svg-to-jsx": "^1.0.3",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}

@@ -1,0 +1,24 @@
+.xx-icon-button {
+  appearance: none;
+  background: none;
+  padding: 0.25em;
+  border: none;
+  color: var(--xx-textColor);
+  transition: all var(--xx-trans);
+
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    color: var(--xx-primaryTextColor);
+  }
+
+  &:hover:not(:disabled) {
+    cursor: pointer;
+    color: var(--xx-primaryTextColor);
+  }
+
+  svg {
+    display: block;
+  }
+}

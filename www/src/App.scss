@@ -1,0 +1,71 @@
+.App {
+  &-Header {
+    position: sticky;
+    top: 0;
+    z-index: 32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--xx-bgColor);
+    border-bottom: 1px solid var(--xx-borderColor);
+    padding: 0.5em 1rem;
+  }
+
+  &-LogoBtn {
+    display: flex;
+    align-items: center;
+    color: var(--xx-secondaryTextColor);
+    transition: all var(--xx-trans);
+
+    &:hover {
+      color: var(--xx-primaryTextColor);
+    }
+  }
+  &-SiteLogo {
+    font-size: 1.25rem;
+    color: var(--xx-secondaryTextColor);
+  }
+  &-GitHubLogo {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.75em;
+  }
+
+  &-IconContainer {
+    padding: 2rem;
+  }
+  &-Icon {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.Icon {
+  &-Card {
+    padding: 3rem 2rem;
+    border: 1px solid var(--xx-borderColor);
+    border-radius: 20px;
+    color: var(--xx-primaryTextColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-ComponentName {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-family: var(--xx-bodyFont);
+    font-weight: 300;
+    font-size: 11px;
+    color: var(--xx-textColor);
+    letter-spacing: 2px;
+  }
+  &-ImportPath {
+    margin-top: 0.25rem;
+    font-family: var(--xx-bodyFont);
+    font-weight: 300;
+    font-size: 11px;
+    color: var(--xx-secondaryTextColor);
+    letter-spacing: 2px;
+  }
+}

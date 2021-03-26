@@ -1,0 +1,151 @@
+.xx-button {
+  $p: &;
+
+  display: inline-flex;
+  align-items: center;
+  justixx-content: center;
+  position: relative;
+  appearance: none;
+  border: none;
+  border-radius: var(--xx-radius);
+  font-family: var(--xx-bodyFont);
+  font-weight: var(--xx-bodyBoldWeight);
+  padding: 1em 1.5em;
+  white-space: nowrap;
+  transition: all var(--xx-trans);
+
+  .xx-button-group > &:not(:only-child):first-of-type {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+
+  .xx-button-group > &:not(:only-child):last-of-type {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+  }
+
+  .xx-button-group > &:not(:first-of-type):not(:last-of-type) {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  &:hover:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border-radius: var(--xx-radius);
+    box-shadow: 0 0 0 2px var(--xx-controlOutlineColor);
+  }
+
+  &[data-size='compact'] {
+    padding: 0.5em 0.75em;
+    font-size: 0.75rem;
+    border-radius: var(--xx-smallRadius);
+  }
+
+  &--primary {
+    background: var(--xx-primaryControlBg);
+    color: var(--xx-primaryControlTextColor);
+
+    &:not(:disabled):hover {
+      background: var(--xx-primaryControlActiveBg);
+    }
+  }
+
+  &--secondary {
+    background: var(--xx-secondaryControlBgColor);
+    color: var(--xx-secondaryControlTextColor);
+
+    &:not(:disabled):hover {
+      background: var(--xx-secondaryControlActiveBg);
+      color: var(--xx-secondaryControlActiveTextColor);
+    }
+  }
+
+  &--ghost {
+    background: transparent;
+    border: 1px solid var(--xx-borderColor);
+    color: var(--xx-primaryTextColor);
+
+    &:not(:disabled):hover {
+      border-color: var(--xx-primaryTextColor);
+    }
+  }
+
+  &--danger {
+    background: var(--xx-dangerControlBg);
+    color: var(--xx-dangerControlTextColor);
+
+    &:not(:disabled):hover {
+      background: var(--xx-dangerControlActiveBg);
+    }
+  }
+
+  &--sell {
+    background: var(--xx-sellControlBg);
+    color: var(--xx-sellControlTextColor);
+
+    &:not(:disabled):hover {
+      background: var(--xx-sellControlActiveBg);
+    }
+  }
+
+  &--buy {
+    background: var(--xx-buyControlBg);
+    color: var(--xx-buyControlTextColor);
+
+    &:not(:disabled):hover {
+      background: var(--xx-buyControlActiveBg);
+    }
+  }
+
+  &-content {
+    display: inline-flex;
+    align-items: center;
+
+    :not(.xx-button-group) > #{$p}:disabled > & {
+      opacity: 0.3;
+    }
+  }
+
+  &-loading-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justixx-content: center;
+  }
+
+  &-left-wrapper {
+    margin-right: 0.5em;
+
+    svg {
+      display: block;
+    }
+  }
+
+  &-right-wrapper {
+    margin-left: 0.5em;
+
+    svg {
+      display: block;
+    }
+  }
+}
