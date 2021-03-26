@@ -15,13 +15,14 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
+  "homepage": "https://dominictobias.github.io/ccy-pairs",
   "scripts": {
     "start": "NODE_ENV=development rollup -c --watch",
     "build": "NODE_ENV=production rollup -c"
   },
   "author": {
     "name": "Dominic Tobias",
-    "url": "https://github.com/DominicTobias/"
+    "url": "https://github.com/dominictobias/"
   },
   "license": "MIT",
   "devDependencies": {
