@@ -1,5 +1,7 @@
 # CCY Icons
 
+[View icons](https://ccy-icons.netlify.app/)
+
 A set of 330+ meticulously combed currency icons (fiat and crypto) so that they:
 
 - Render in a uniform, consistently sized manner.

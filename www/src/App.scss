@@ -11,23 +11,26 @@
     padding: 0.5em 1rem;
   }
 
-  &-LogoBtn {
+  &-GithubLink {
     display: flex;
     align-items: center;
-    color: var(--xx-secondaryTextColor);
-    transition: all var(--xx-trans);
-
-    &:hover {
-      color: var(--xx-primaryTextColor);
-    }
-  }
-  &-SiteLogo {
     font-size: 1rem;
     text-transform: uppercase;
     color: var(--xx-secondaryTextColor);
     letter-spacing: 1.2px;
+    transition: all var(--xx-trans);
+
+    &:not(:disabled):hover {
+      color: var(--xx-primaryTextColor);
+      text-decoration: none;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1em;
+    }
   }
-  &-GitHubLogo {
+  &-GitHubIcon {
     width: 24px;
     height: 24px;
     margin-right: 0.75em;

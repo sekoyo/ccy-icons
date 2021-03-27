@@ -5,7 +5,6 @@ import * as allIcons from 'ccy-icons'
 
 import { Stack } from './components/Stack'
 import { Button } from './components/Button'
-import { IconButton } from './components/IconButton'
 
 import './App.scss'
 
@@ -30,18 +29,19 @@ function App() {
     }
   }, [theme])
 
-  function gotoGithub() {
-    window.open('https://github.com/DominicTobias/ccy-icons')
-  }
-
   return (
     <div className="App">
       <header className="App-Header">
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <IconButton className="App-LogoBtn" title="Visit GitHub project" onClick={gotoGithub}>
-            <AiOutlineGithub className="App-GitHubLogo" />
-          </IconButton>
-          <h2 className="App-SiteLogo">CCY Icons</h2>
+          <a
+            href="https://github.com/DominicTobias/ccy-icons"
+            target="_blank"
+            className="App-GithubLink"
+            title="See project on Github"
+          >
+            <AiOutlineGithub className="App-GitHubIcon" />
+            <h2>CCY Icons</h2>
+          </a>
         </div>
         <Button
           emphasis="ghost"
