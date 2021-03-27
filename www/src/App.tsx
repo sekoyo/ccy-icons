@@ -33,6 +33,7 @@ function App() {
     <div className="App">
       <header className="App-Header">
         <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a
             href="https://github.com/DominicTobias/ccy-icons"
             target="_blank"
