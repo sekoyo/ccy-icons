@@ -34,6 +34,6 @@ import { BTC } from 'ccy-icons' // and render the component <BTC />
 To batch optimize/clean SVGs:
 
 ```bash
-cd src/icons
+cd icons
 svgo *.svg --config=svgo.yml
 ```
