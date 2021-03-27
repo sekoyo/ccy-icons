@@ -1,6 +1,6 @@
 {
   "name": "ccy-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Currency icon library",
   "keywords": [
     "web",
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "NODE_ENV=development rollup -c --watch",
-    "build": "NODE_ENV=production rollup -c"
+    "build": "NODE_ENV=production rollup -c",
+    "prepare": "yarn build"
   },
   "author": {
     "name": "Dominic Tobias",
