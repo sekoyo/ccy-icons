@@ -29,7 +29,7 @@ import { BTC } from 'ccy-icons' // and render the component <BTC />
 5. Check that your icon looks correct (uses currentColor so switching theme works, has a viewBox, has no width or height attributes). If it doesn't then import your icon into Sketch or Figma, re-export (with trim transparent pixels), and re-run your svg through SVGOMG.
 6. Once happy raise a PR **including a screenshot** of the icon in-situ.
 
-### Dev notes
+### Dev notes
 
 To batch optimize/clean SVGs:
 
