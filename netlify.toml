@@ -11,3 +11,6 @@
   # root directory if a base has not been set. This sample publishes the
   # directory located at the absolute path "root/project/build-output"
   publish = "www/build/"
+
+  # Default build command.
+  command = "yarn build"
