@@ -15,7 +15,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "homepage": "https://dominictobias.github.io/ccy-pairs",
+  "homepage": "https://ccy-icons.netlify.app/",
   "repository": {
     "type": "git",
     "url": "https://github.com/DominicTobias/ccy-icons.git"
