@@ -16,6 +16,10 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "homepage": "https://dominictobias.github.io/ccy-pairs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DominicTobias/ccy-icons.git"
+  },
   "scripts": {
     "start": "NODE_ENV=development rollup -c --watch",
     "build": "NODE_ENV=production rollup -c"
