@@ -3224,10 +3224,10 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-ccy-icons@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ccy-icons/-/ccy-icons-1.0.0.tgz#a9b67f2222a9ce94682cbd754c06786f2c286efc"
-  integrity sha512-Y/c6RlhNCam6VqJB6CYbRVgDFv3zYg4kIx06waOjV0vEe7CHUDSCdj2cY0Qsf+ZOcUqnLtG1OOfDSVBieHxuNA==
+ccy-icons@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ccy-icons/-/ccy-icons-1.0.1.tgz#f1c70ecd9b4d86fffc343a41f122af055ac99c06"
+  integrity sha512-ssZ2atOIYjfuLa+ProWaXUMqezGH1NOgLU6uPHYb9vS5N2Rg9j1pM9ZIGm+q5kL74YR9kvH6HAiyIx2gG0cU5Q==
 
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"

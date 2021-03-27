@@ -9,7 +9,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "ccy-icons": "^1.0.0"
+    "ccy-icons": "^1.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
