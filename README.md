@@ -11,7 +11,7 @@ A set of 330+ meticulously combed currency icons (fiat and crypto) so that they:
 SVGs can be directly used, or they can be used as React components for example:
 
 ```js
-// Your build needs a .svg loader (many such as CRA have it built in).
+// Your build needs an .svg loader (many such as CRA have it built in).
 import btcIcon from 'ccy-icons/icons/btc.svg' // And render it <img src={btcIcon} />
 
 // Or in React:
