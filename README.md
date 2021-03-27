@@ -1,6 +1,6 @@
 # CCY Icons
 
-A set of meticulously combed currency icons (fiat and crypto) so that they:
+A set of 330+ meticulously combed currency icons (fiat and crypto) so that they:
 
 - Render in a uniform, consistently sized manner.
 - Use `currentColor` so that they can be easily colored using CSS `color` property.
