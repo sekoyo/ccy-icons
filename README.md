@@ -18,7 +18,7 @@ import btcIcon from 'ccy-icons/icons/btc.svg' // And render it <img src={btcIcon
 import { BTC } from 'ccy-icons' // and render the component <BTC />
 ```
 
-**Important:** icons don't set a width and height, you should set one or both with CSS, or allow the icon to fill it's container.
+**Important:** icons don't set a width and height, you should set one or both with CSS, or allow the icon to fill its container.
 
 ## Contributing
 
