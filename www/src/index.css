@@ -49,7 +49,6 @@ body {
 }
 
 body {
-  contain: paint;
   background: var(--xx-bgColor);
 }
 
@@ -105,7 +104,6 @@ li {
   max-height: 100%;
   scrollbar-width: thin;
   scrollbar-color: var(--xx-scrollThumbColor) var(--xx-scrollTrackColor);
-  contain: paint;
 }
 .scroll::-webkit-scrollbar {
   width: 12px;
