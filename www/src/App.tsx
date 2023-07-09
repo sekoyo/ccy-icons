@@ -11,7 +11,7 @@ import './App.scss'
 function toFileName(componentName: string) {
   let lowerName = componentName.toLocaleLowerCase()
   if (lowerName.startsWith('_')) {
-    lowerName = lowerName.substr(1)
+    lowerName = lowerName.substring(1)
   }
   return `${lowerName}.svg`
 }

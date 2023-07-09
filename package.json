@@ -1,7 +1,7 @@
 {
   "name": "ccy-icons",
-  "version": "1.0.3",
-  "description": "Finery UI currency icon library",
+  "version": "1.0.4",
+  "description": "Currency icon library",
   "keywords": [
     "web",
     "ui",
@@ -18,32 +18,30 @@
   "homepage": "https://ccy-icons.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/finery-ui/ccy-icons.git"
+    "url": "https://github.com/DominicTobias/ccy-icons.git"
   },
   "scripts": {
-    "start": "NODE_ENV=development rollup -c --watch",
-    "build": "NODE_ENV=production rollup -c",
-    "prepare": "yarn build"
+    "start": "NODE_ENV=development rollup -c --bundleConfigAsCjs --watch",
+    "build": "NODE_ENV=production rollup -c --bundleConfigAsCjs",
+    "prepare": "npm run build"
   },
   "author": {
-    "name": "Finery Ltd",
-    "url": "https://github.com/finery-ui/ccy-icons"
+    "name": "Dominic Tobias",
+    "url": "https://github.com/DominicTobias/ccy-icons"
   },
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-node-resolve": "^13.1.3",
-    "@rollup/plugin-replace": "^3.0.1",
-    "@types/react": "^17.0.38",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "rollup": "^2.66.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.31.1",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@types/react": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.26.2",
+    "rollup-plugin-typescript2": "^0.35.0",
     "svg-to-jsx": "^1.0.4",
-    "typescript": "^4.5.5"
+    "typescript": "^5.1.6"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"

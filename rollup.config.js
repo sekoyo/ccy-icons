@@ -3,7 +3,6 @@ import replace from '@rollup/plugin-replace'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import typescript from 'rollup-plugin-typescript2'
-import { terser } from 'rollup-plugin-terser'
 
 import { iconsToComponents } from './iconsToComponents'
 
@@ -50,12 +49,5 @@ export default {
     }),
     typescript(),
     iconsToComponents(),
-    isProd &&
-      terser({
-        module: true,
-        output: {
-          comments: false,
-        },
-      }),
   ],
 }
