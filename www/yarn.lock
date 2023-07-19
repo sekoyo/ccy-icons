@@ -3123,10 +3123,10 @@ case-sensitive-paths-webpack-plugin@^2.4.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==
 
-ccy-icons@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/ccy-icons/-/ccy-icons-1.0.2.tgz#9f9461bc986a91326da8bd18d7bfa59091c540d3"
-  integrity sha512-LsK2gxpWVfcUIrvksf5c19XKW9LSUvJY42Cpo8wLKRVygaavdLGXXZzw4YobLaON9eRLYA2eMyZoFRsqKUUXFw==
+ccy-icons@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/ccy-icons/-/ccy-icons-1.0.4.tgz#8b78e23261bab623b16c175d4bcc7cc0109054b4"
+  integrity sha512-e8TnyK+hB3tmMrDttq6cmDV9O3nGR6qofOT4GboL+bRkObec7lWMk5rlMxcrkYTsIGxUJ150lXGSeN09gcWMxQ==
 
 chalk@^2.0.0, chalk@^2.4.1:
   version "2.4.2"
