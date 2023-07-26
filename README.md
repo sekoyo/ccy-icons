@@ -8,10 +8,10 @@ A set of 330+ meticulously combed currency icons (fiat and crypto) so that they:
 - Use `currentColor` so that they can be easily colored using CSS `color` property.
 - Don't contain excess junk.
 
-SVGs can be directly used, or they can be used as React components for example:
+SVGs can be directly used, or they can be used as React components, for example:
 
 ```js
-// Your build needs an .svg loader (many such as CRA have it built in).
+// Your build tool needs an .svg loader
 import btcIcon from 'ccy-icons/icons/btc.svg' // And render it <img src={btcIcon} />
 
 // Or in React:
